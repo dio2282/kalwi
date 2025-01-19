@@ -18,7 +18,7 @@ const socialIcons = [
 const navLinks = [
   { href: "https://store.kalwi.net/", label: "Store", id: "store-link" },
   { href: "https://discord.gg/kalwi", label: "Discord", id: "discord-link" },
-  { href: "https://store.kalwi.net/perks", label: "Perks", id: "perks-link" },
+  { href: "https://store.kalwi.net/", label: "Perks", id: "perks-link" },
   { href: "https://wa.link/h8r00y", label: "Support", id: "support-link" },
 ];
 
@@ -31,7 +31,7 @@ export const Footer: FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="text-center md:text-left">
             <p className="font-medium text-sm text-white">
-              © {currentYear} KandangAlwi. All rights reserved.
+              © {currentYear} KalWi. All rights reserved.
             </p>
           </div>
 

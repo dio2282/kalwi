@@ -18,7 +18,7 @@ const testimonials = [
     avatarImg: avatar2,
   },
   {
-    text: "“Sistenya keren juga!”",
+    text: "Sistemnya, keren juga!”",
     name: "Dev_Dio",
     title: "COO @ KandangAlwi",
     avatarImg: avatar3,
