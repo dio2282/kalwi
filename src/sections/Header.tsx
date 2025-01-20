@@ -28,7 +28,7 @@ const mainNav: NavItem[] = [
     href: "https://store.kalwi.net",
     badge: "30%",
   },
-  { id: "guides-link", name: "Guides", href: "https://docs.kalwi.net" },
+  { id: "guides-link", name: "Guides", href: "https://guides.kalwi.net" },
   { id: "support-link", name: "Support", href: "https://wa.link/h8r00y" },
 ];
 

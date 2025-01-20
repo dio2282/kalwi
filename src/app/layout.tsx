@@ -6,9 +6,9 @@ import { twMerge } from "tailwind-merge";
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
-  title: "KandangAlwi | Home",
+  title: "KalWi | Home",
   icons: {
-    icon: "https://avatars.githubusercontent.com/u/103891778?s=200&v=4", // Jalur ke ikon di folder public
+    icon: "https://avatars.githubusercontent.com/u/103891778?s=200&v=4",
   },
 };
 

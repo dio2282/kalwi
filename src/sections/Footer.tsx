@@ -18,7 +18,7 @@ const socialIcons = [
 const navLinks = [
   { href: "https://store.kalwi.net/", label: "Store", id: "store-link" },
   { href: "https://discord.gg/kalwi", label: "Discord", id: "discord-link" },
-  { href: "https://store.kalwi.net/", label: "Perks", id: "perks-link" },
+  { href: "https://store.kalwi.net/perks", label: "Perks", id: "perks-link" },
   { href: "https://wa.link/h8r00y", label: "Support", id: "support-link" },
 ];
 

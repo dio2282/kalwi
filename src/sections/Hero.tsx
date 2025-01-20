@@ -48,7 +48,7 @@ export const Hero = () => {
           <span className="block md:inline">KalWi</span>
         </h1>
         <p className="mt-5 text-lg text-white/90 drop-shadow-sm">
-          Selamat datang di Landing Page KalWi! Temukan semua informasi
+          Selamat datang di Landing Page KandangAlwi! Temukan semua informasi
           terbaru tentang server Minecraft kami yang penuh petualangan!
         </p>
         {notificationVisible && (
