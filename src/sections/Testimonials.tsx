@@ -1,90 +1,113 @@
 "use client";
 
+import type React from "react";
 import { useRef, useEffect, useState } from "react";
 import Image from "next/image";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
-const testimonials = [
+import ItsFahryAvatar from "@/public/avatar/ItsFahry.png";
+import braing20Avatar from "@/public/avatar/braing20.png";
+import ReyzhaAvatar from "@/public/avatar/Reyzha.png";
+import xr0rVx3QAvatar from "@/public/avatar/xr0rVx3Q.png";
+import danilmnsAvatar from "@/public/avatar/danilmns.png";
+import CioomayyAvatar from "@/public/avatar/Cioomayyy.png";
+import Atlas_90Avatar from "@/public/avatar/Atlas_90.png";
+import TchaikovskyyyyAvatar from "@/public/avatar/Tchaikovskyyyy.png";
+import Sneax22_Avatar from "@/public/avatar/Sneax22_.png";
+import Avif_IkhsanAvatar from "@/public/avatar/.Avif_Ikhsan.png";
+import ItsFaa_Avatar from "@/public/avatar/ItsFaa_.png";
+import akiillaa_Avatar from "@/public/avatar/akiillaa_.png";
+
+interface Testimonial {
+  text: string;
+  name: string;
+  title: string;
+  avatarImg: any;
+}
+
+const testimonials: Testimonial[] = [
   {
     text: '"Saya sangat suka bermain di Alwi karena player nya sangat ramah dan baik"',
     name: "ItsFahry",
     title: "Mirachle @ KandangAlwi",
-    avatarImg: "/avatar/ItsFahry.png",
+    avatarImg: ItsFahryAvatar,
   },
   {
     text: '"Saya suka bermain kalwi karena saya mendapatkan banyak pengalaman bermain, dan juga mendapatkan teman yg banyak"',
     name: "braing20",
     title: "Mirachle @ KandangAlwi",
-    avatarImg: "/avatar/braing20.png",
+    avatarImg: braing20Avatar,
   },
   {
     text: '"Saya sangat suka bermain di server Kandang Alwi karena komunitasnya ramah, servernya stabil, dan gampang mencari teman mabar."',
     name: "Reyzha",
     title: "Mirachle @ KandangAlwi",
-    avatarImg: "/avatar/Reyzha.png",
+    avatarImg: ReyzhaAvatar,
   },
   {
     text: '"bermain di server kandang alwi tuh seru banget, banyak sub server bervariasi yang ga membosankan pastinya!! kalwi tempat ternyaman player indonesia:)"',
     name: "xr0rVx3Q",
     title: "Mirachle @ KandangAlwi",
-    avatarImg: "/avatar/xr0rVx3Q.png",
+    avatarImg: xr0rVx3QAvatar,
   },
   {
     text: '"Saya suka bermain di server kandang alwi, karena player nya yang ramah, sopan,  tidak ada yang rasis, yang kedua server kandang alwi suka mengadakan event seperti diskon 80 persen untuk rank dan lain lain."',
     name: "danilmns",
     title: "Mirachle @ KandangAlwi",
-    avatarImg: "/avatar/danilmns.png",
+    avatarImg: danilmnsAvatar,
   },
   {
     text: '"saya suka kalwi karena bisa berteman dengan orang2 di server."',
     name: "Cioomayyy",
     title: "Mirachle @ KandangAlwi",
-    avatarImg: "/avatar/Cioomayyy.png",
+    avatarImg: CioomayyAvatar,
   },
   {
     text: '"Server Kalwi seru, gamemodenya banyak dan staff staffnya friendly & fastresp. Sebagai player java sih gw jarang ngalamin tps drop ato ngelag. Saran" dari playernya didenger dan announcement ttg server aktif di discord. Jadi ya klo mau main minecraft sih di kalwi"',
     name: "Atlas_90",
     title: "Mirachle @ KandangAlwi",
-    avatarImg: "/avatar/Atlas_90.png",
+    avatarImg: Atlas_90Avatar,
   },
   {
     text: '"i like playing kalwi cuz its so fun."',
     name: "Tchaikovskyyyy",
     title: "Mirachle @ KandangAlwi",
-    avatarImg: "/avatar/Tchaikovskyyyy.png",
+    avatarImg: TchaikovskyyyyAvatar,
   },
   {
     text: '"server kalwi cukup seru dimainkan, namun rank udah mentok, tambahin rank lagi donggsss"',
     name: "Sneax22_",
     title: "Mirachle @ KandangAlwi",
-    avatarImg: "/avatar/Sneax22_.png",
+    avatarImg: Sneax22_Avatar,
   },
   {
     text: '"Saya suka bermain di server kandang alwi karena bisa ketemu banyak teman dan tidak bosan karena sekarang tidak bermain sendiri lagi. Dari staff juga asik, gk sombong, selalu bantu membernya yg butuh bantuan. Dan selama bermain di server Minecraft aku baru ngerasain gk sendirian."',
     name: ".Avif_Ikhsan",
     title: "Mirachle @ KandangAlwi",
-    avatarImg: "/avatar/.Avif_Ikhsan.png",
+    avatarImg: Avif_IkhsanAvatar,
   },
   {
     text: '"saya suka bermain di server kalwi karena. Staffnya ramah, baik hati, dan suka menolong. Banyak pilihan subserver yang dapat di mainkan. Rank yang ada bagus" dan menarik"',
     name: "ItsFaa_",
     title: "Mirachle @ KandangAlwi",
-    avatarImg: "/avatar/ItsFaa_.png",
+    avatarImg: ItsFaa_Avatar,
   },
   {
     text: '"Seneng sekali saya bisa bermain di server kalwi , bahagia bisa bertemu dengan teman2 yg baik dan saling membantu dan banyak keseruan lain nya lagi di server kalwi, pokok nya buat server kalwi best banget aku suka bnget"',
     name: "akiillaa_",
     title: "Mirachle @ KandangAlwi",
-    avatarImg: "/avatar/ akiillaa_.png",
+    avatarImg: akiillaa_Avatar,
   },
 ];
 
-const TestimonialCard = ({
+interface TestimonialCardProps {
+  testimonial: Testimonial;
+  isCenter: boolean;
+}
+
+const TestimonialCard: React.FC<TestimonialCardProps> = ({
   testimonial,
   isCenter,
-}: {
-  testimonial: (typeof testimonials)[0];
-  isCenter: boolean;
 }) => {
   const [fontSize, setFontSize] = useState(18);
   const textRef = useRef<HTMLDivElement>(null);
@@ -108,7 +131,7 @@ const TestimonialCard = ({
     };
 
     adjustFontSize();
-  }, [testimonial.text]);
+  }, []);
 
   return (
     <motion.div
@@ -127,14 +150,17 @@ const TestimonialCard = ({
         {testimonial.text}
       </div>
       <div className="flex items-center gap-3 mt-4">
-        <div className="relative after:content-[''] after:absolute after:inset-0 after:bg-[rgba(48,180,255,0.5)] after:mix-blend-soft-light before:content-[''] before:absolute before:inset-0 before:border before:border-white/30 before:z-10 before:rounded-lg">
-          <Image
-            src={testimonial.avatarImg || "/placeholder.svg"}
-            alt={`Avatar for ${testimonial.name}`}
-            className="h-10 w-10 sm:h-11 sm:w-11 rounded-lg grayscale border border-white/30"
-            width={44}
-            height={44}
-          />
+        <div className="relative h-10 w-10 sm:h-11 sm:w-11">
+          <div className="absolute inset-0 bg-[radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, rgba(48, 180, 255, 0.5) 80%)] rounded-full shadow-2xl" />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <Image
+              src={testimonial.avatarImg || "/placeholder.svg"}
+              alt={`Avatar for ${testimonial.name}`}
+              width={44}
+              height={44}
+              className="h-8 w-8 sm:h-9 sm:w-9 rounded-full grayscale"
+            />
+          </div>
         </div>
         <div className="text-left">
           <div className="font-semibold text-white text-sm sm:text-base">
@@ -149,7 +175,7 @@ const TestimonialCard = ({
   );
 };
 
-export const Testimonials = () => {
+export const Testimonials: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
