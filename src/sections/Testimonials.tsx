@@ -40,7 +40,7 @@ const testimonials: Testimonial[] = [
   },
   {
     text: '"Saya sangat suka bermain di server Kandang Alwi karena komunitasnya ramah, servernya stabil, dan gampang mencari teman mabar."',
-    name: "Reyzha",
+    name: "ryznoxy",
     title: "Miracle @ KandangAlwi",
     avatarImg: ReyzhaAvatar,
   },
