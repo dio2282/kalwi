@@ -29,13 +29,13 @@ const testimonials: Testimonial[] = [
   {
     text: '"Saya sangat suka bermain di Alwi karena player nya sangat ramah dan baik"',
     name: "ItsFahry",
-    title: "Mirachle @ KandangAlwi",
+    title: "Miracle @ KandangAlwi",
     avatarImg: ItsFahryAvatar,
   },
   {
     text: '"Saya suka bermain kalwi karena saya mendapatkan banyak pengalaman bermain, dan juga mendapatkan teman yg banyak"',
     name: "braing20",
-    title: "Mirachle @ KandangAlwi",
+    title: "Miracle @ KandangAlwi",
     avatarImg: braing20Avatar,
   },
   {
