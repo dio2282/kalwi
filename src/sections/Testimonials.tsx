@@ -140,7 +140,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
       }`}
       initial={false}
       animate={{ opacity: isCenter ? 1 : 0.4 }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 7.0 }}
     >
       <div
         ref={textRef}
