@@ -21,10 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={twMerge(inter.className, "bg-black text-white antialiased")}
-<<<<<<< HEAD
         suppressHydrationWarning
-=======
->>>>>>> 0385e9862a752f5fa29d1209ea4c818c5f0707fd
       >
         {children}
       </body>
