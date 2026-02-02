@@ -48,11 +48,19 @@ export const staffMembers: StaffMember[] = [
     // ╔═══════════════════════════════════════════════════════════════════════╗
     // ║ DEVELOPER - Tambah developer di sini                                   ║
     // ╚═══════════════════════════════════════════════════════════════════════╝
-    // {
-    //   username: "developer_username",
-    //   role: "Developer",
-    //   discord: "",
-    // },
+    {
+        username: "pukislukis",
+        role: "Developer",
+        discord: "lukisspukis",
+    },
+
+    {
+        username: "coobylah",
+        role: "Developer",
+        discord: "coobylah",
+    },
+
+    
 
     // ╔═══════════════════════════════════════════════════════════════════════╗
     // ║ ADMIN - Tambah admin di sini                                           ║
@@ -104,6 +112,7 @@ export interface CareerOpening {
 }
 
 export const careerOpenings: CareerOpening[] = [
+    /*
     {
         id: "skyblock-developer",
         title: "Skyblock Developer",
@@ -128,7 +137,7 @@ export const careerOpenings: CareerOpening[] = [
         // ╚═══════════════════════════════════════════════════════════════════════╝
 
         // Opsi 1: Discord DM
-        applyMethod: { type: "discord", username: "xlqcy", userId: "819573006523301898" },
+       //  applyMethod: { type: "discord", username: "xlqcy", userId: "819573006523301898" },
 
         // Opsi 2: Google Form (uncomment untuk pakai)
         // applyMethod: { type: "gform", url: "https://forms.gle/xxxxx", label: "Isi Form" },
@@ -136,6 +145,7 @@ export const careerOpenings: CareerOpening[] = [
         // Opsi 3: Link custom (uncomment untuk pakai)
         // applyMethod: { type: "link", url: "https://example.com/apply", label: "Apply Now" },
     },
+    */
 
     // ╔═══════════════════════════════════════════════════════════════════════╗
     // ║ CONTOH LOWONGAN DENGAN GOOGLE FORM (uncomment untuk pakai)            ║
