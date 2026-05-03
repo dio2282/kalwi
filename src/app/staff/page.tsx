@@ -45,27 +45,27 @@ const StaffCard = ({
             transition={{ delay: index * 0.1, duration: 0.4 }}
             className="group"
         >
-            <div className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-6 hover:border-white/25 transition-colors duration-300 cursor-pointer">
+            <div className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-4 sm:p-5 md:p-6 hover:border-white/25 transition-colors duration-300 cursor-pointer">
                 {/* Avatar Container */}
-                <div className="relative mx-auto w-24 h-24 mb-4">
+                <div className="relative mx-auto w-20 h-20 sm:w-24 sm:h-24 mb-4">
                     <div
                         className="absolute inset-0 rounded-xl blur-lg opacity-50"
                         style={{ backgroundColor: config.color }}
                     />
-                    <div className="relative w-24 h-24 rounded-xl overflow-hidden border-2 border-white/20">
+                    <div className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-xl overflow-hidden border-2 border-white/20 bg-black/20">
                         <Image
                             src={getMcHead(member.username, 128)}
                             alt={`${member.displayName || member.username}'s avatar`}
                             width={96}
                             height={96}
-                            className="w-full h-full object-cover"
+                            className="w-full h-full object-contain p-1"
                             unoptimized
                         />
                     </div>
                 </div>
 
                 {/* Name */}
-                <h3 className="text-lg font-bold text-white text-center mb-2">
+                <h3 className="text-base sm:text-lg font-bold text-white text-center leading-tight break-words mb-2">
                     {member.displayName || member.username}
                 </h3>
 
@@ -81,7 +81,7 @@ const StaffCard = ({
 
                 {/* Discord (optional) */}
                 {member.discord && (
-                    <p className="text-center text-white/40 text-xs mt-3">
+                    <p className="text-center text-white/40 text-xs mt-3 break-all">
                         @{member.discord}
                     </p>
                 )}
@@ -162,7 +162,7 @@ export default function StaffPage() {
                     </motion.div>
 
                     {/* Staff Grid - 5 columns horizontal */}
-                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6">
+                    <div className="grid grid-cols-1 min-[380px]:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-6">
                         {allStaff.map((member, index) => (
                             <StaffCard
                                 key={member.username}

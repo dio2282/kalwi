@@ -54,7 +54,7 @@ export const rulesIndonesia: RuleSection[] = [
 - **Pelanggaran Kedua:** \`Ban\` sementara 1 jam.
 - **Pelanggaran Ketiga:** \`Ban\` sementara 6 jam.
 `,
-        footer: "KandangAlwi Rules • Pasal 1 dari 4",
+        footer: "KandangAlwi Rules • Pasal 1 dari 5",
     },
     {
         id: "pasal-2",
@@ -154,7 +154,7 @@ export const rulesIndonesia: RuleSection[] = [
 
 **Sanksi:** Ban 3 hari → Ban 7 hari → Ban permanen.
 `,
-        footer: "KandangAlwi Rules • Pasal 2 dari 4",
+        footer: "KandangAlwi Rules • Pasal 2 dari 5",
     },
     {
         id: "pasal-3",
@@ -176,7 +176,7 @@ export const rulesIndonesia: RuleSection[] = [
 - \`Staff\` akan meninjau dan mempertimbangkan \`appeal\` tersebut.
 - Proses appeal membutuhkan penjelasan lengkap tentang pelanggaran.
 `,
-        footer: "KandangAlwi Rules • Pasal 3 dari 4",
+        footer: "KandangAlwi Rules • Pasal 3 dari 5",
     },
     {
         id: "pasal-4",
@@ -197,7 +197,191 @@ export const rulesIndonesia: RuleSection[] = [
 - Pemain diharapkan untuk selalu mengikuti update peraturan terbaru.
 - Ketidaktahuan terhadap aturan baru bukan alasan untuk bebas dari sanksi.
 `,
-        footer: "KandangAlwi Rules • Pasal 4 dari 4",
+        footer: "KandangAlwi Rules • Pasal 4 dari 5",
+    },
+    {
+        id: "pasal-5",
+        label: "Pasal 5: WTT Rank",
+        emoji: "📢",
+        color: "#30B4FF",
+        title: "📢 PASAL 5: PERATURAN WTT KHUSUS RANK",
+        content: `
+### 1. Pendahuluan
+Aturan ini **hanya berlaku untuk transaksi WTT yang melibatkan rank premium** sebagai salah satu sisi pertukaran.
+
+Contoh transaksi yang dimaksud:
+- Item ↔️ Rank
+- Balance ↔️ Rank
+- Jasa ↔️ Rank
+- Rank ↔️ Item
+- Rank ↔️ Balance
+- Rank ↔️ Jasa
+
+**Transaksi yang tidak melibatkan rank** seperti item ↔️ item, item ↔️ balance, jasa ↔️ item, dan sejenisnya **tidak diatur** oleh aturan ini dan tidak wajib melalui ticket. Namun transaksi tersebut tetap tunduk pada peraturan server umum tentang penipuan atau scam.
+
+Tujuan aturan khusus ini:
+- Melindungi kedua belah pihak dari penipuan dalam transaksi yang melibatkan rank.
+- Menyediakan jalur resmi dan bukti transaksi yang sah.
+- Memberikan kepastian hukum dalam transaksi jangka panjang seperti jasa build yang melibatkan rank.
+
+---
+
+### 2. Definisi WTT yang Diatur
+**Transaksi yang wajib mengikuti aturan ini karena melibatkan rank:**
+- Item in-game dari server KandangAlwi ↔️ Rank.
+- Balance atau uang in-game ↔️ Rank.
+- Jasa build, desain, dan sejenisnya ↔️ Rank.
+- Rank ↔️ Item in-game.
+- Rank ↔️ Balance.
+- Rank ↔️ Jasa.
+
+**Transaksi yang tidak diatur aturan ini dan tidak wajib ticket:**
+- Item ↔️ Item, keduanya item in-game.
+- Item ↔️ Balance.
+- Balance ↔️ Balance.
+- Jasa ↔️ Item tanpa rank.
+- Jasa ↔️ Balance tanpa rank.
+
+**Tetap dilarang dalam aturan server utama:**
+- Item dari server atau game lain ↔️ Rank KandangAlwi.
+- Transaksi dengan uang asli atau RMT.
+
+---
+
+### 3. Kewajiban Open Ticket
+**Semua transaksi yang melibatkan rank wajib melalui Open Ticket.**
+
+Ticket dibuka di **Discord server KandangAlwi** melalui channel khusus. Ticket berfungsi sebagai:
+- Bukti resmi transaksi.
+- Tempat staff memonitor dan menjadi penengah.
+- Arsip kesepakatan tertulis.
+- Sarana komunikasi aman tanpa kecurigaan.
+
+**Persyaratan sebelum membuka ticket:**
+- Kedua pihak yang akan bertransaksi wajib memiliki akun Discord.
+- Kedua pihak wajib bergabung di server Discord KandangAlwi.
+
+**Cara membuka ticket:**
+1. Salah satu player pergi ke channel \`#「🎫」open-ticket\` atau channel open ticket sesuai nama yang berlaku di server.
+2. Player membuka ticket baru dengan memilih kategori bebas, misalnya \`Support\`, \`Ask\`, \`Other\`, atau kategori lain yang tersedia.
+3. Setelah ticket terbuka, staff akan mengubah kategori ticket tersebut menjadi \`Parking\` khusus untuk keperluan WTT.
+4. Di dalam channel ticket yang baru terbuat, player menjelaskan maksud transaksi WTT kepada staff Helper dan melampirkan mention Discord pihak yang diajak WTT.
+5. Staff dengan role **Moderator** atau **Admin** akan masuk ke dalam ticket dan bertindak sebagai penengah.
+6. Moderator akan melampirkan format kesepakatan yang wajib diisi oleh kedua pihak.
+7. Seluruh proses negosiasi dan kesepakatan dilakukan di dalam ticket dengan staff sebagai penengah. Proses ini gratis.
+8. Jika kesepakatan telah selesai dan transaksi dinyatakan sah, **Helper** akan menutup ticket.
+
+**Transaksi di luar ticket untuk transaksi yang melibatkan rank:**
+- Transaksi tersebut tidak dilindungi oleh server.
+- Jika terjadi scam, staff tidak akan memproses laporan.
+- Kedua pihak menanggung risiko sepenuhnya.
+- Jika staff mengetahui adanya transaksi WTT yang melibatkan rank tetapi tanpa ticket, kedua pihak tetap dapat dikenakan warning karena melanggar prosedur keamanan server.
+
+---
+
+### 4. Sanksi Pelanggaran
+**Sanksi untuk transaksi tanpa ticket:**
+- Pelanggaran pertama yang ketahuan staff: Warning.
+- Pelanggaran kedua: Ban sementara 3 hari.
+- Pelanggaran ketiga: Ban permanen dari layanan WTT rank atau ban akun.
+
+**Sanksi untuk scam dalam ticket:**
+- Ban sementara 7 hari untuk pelaku.
+- Staff akan berusaha memulihkan aset yang dirugikan jika memungkinkan.
+- Pelaku dicatat dalam daftar hitam WTT server.
+
+**Sanksi tambahan:**
+- Jika pelaku sudah memiliki riwayat scam sebelumnya, staff dapat menjatuhkan ban permanen.
+- Barang curian atau hasil scam akan disita.
+
+---
+
+### 5. Aturan Khusus Jasa Build ke Rank
+Karena jasa build yang imbalannya berupa rank membutuhkan waktu lama, aturan berikut berlaku.
+
+**Perjanjian awal wajib di ticket. Kesepakatan harus mencantumkan:**
+- Detail build, termasuk ukuran, gaya, dan deadline jika ada.
+- Imbalan, termasuk rank apa, kapan diberikan, dan apakah ada DP.
+- Konsekuensi jika salah satu pihak gagal memenuhi.
+
+**Parking hold ticket untuk jasa build:**
+- Jika build memakan waktu lebih dari 3 hari, ticket yang sudah dalam kategori \`Parking\` dapat dipertahankan dalam status hold.
+- Staff dapat menetapkan masa hold maksimal 14 hari.
+- Setelah itu, jika tidak ada kabar, ticket akan ditutup dan perjanjian dianggap batal kecuali ada perpanjangan dari staff.
+
+**Jika penyewa atau pemberi rank tidak membayar setelah build selesai:**
+1. Staff akan memeriksa bukti penyelesaian build dari builder.
+2. Jika terbukti build selesai sesuai kesepakatan tetapi penyewa tidak memberikan rank, staff akan membekukan lahan yang dibangun hingga penyewa membayar.
+3. Jika setelah 7 hari tetap tidak membayar, lahan dapat dipindahkan kepemilikannya ke builder hanya untuk area yang dibangun, bukan seluruh lahan penyewa.
+
+**Jika builder gagal menyelesaikan build setelah menerima DP rank sementara:**
+- Penyewa dapat memberikan rank sementara, misalnya Supporter, kepada builder sebagai DP atau untuk mempermudah builder.
+- Rank sementara diberikan oleh staff, bukan oleh penyewa langsung.
+- Rank sementara akan dicabut setelah build selesai atau jika perjanjian batal.
+- Jika builder terbukti gagal memenuhi perjanjian tanpa alasan yang sah seperti menghilang atau tidak mengerjakan, rank sementara akan dicabut.
+- Staff dapat memindahkan rank sementara ke akun alt milik penyewa sebagai kompensasi.
+- Builder juga dapat dikenakan sanksi tambahan berupa ban sementara atau daftar hitam.
+
+---
+
+### 6. Peran Staff
+**Helper:**
+- Menyapa pemain, menutup ticket, dan memastikan pemain memantau ticket.
+- Mengarahkan ke Moderator jika perlu.
+
+**Moderator ke atas, termasuk Moderator, Admin, dan Owner:**
+- Bertindak sebagai penengah resmi.
+- Memeriksa bukti, memutuskan sanksi, dan menyelesaikan sengketa.
+
+**Biaya:** Tidak ada biaya untuk layanan WTT melalui ticket.
+
+**Target respons:** Maksimal 2x24 jam, kecuali sedang libur.
+
+---
+
+### 7. Format Bukti dalam Ticket
+Setiap ticket WTT yang melibatkan rank wajib mencantumkan pesan kesepakatan yang disetujui oleh kedua belah pihak.
+
+Format minimal:
+
+~~~
+Kesepakatan WTT (melibatkan rank) antara:
+- Pihak 1: [nama Minecraft & Discord]
+- Pihak 2: [nama Minecraft & Discord]
+
+Jenis transaksi: [item/balance/jasa] ↔️ [rank]
+Detail:
+- [Sebutkan barang/balance/jasa yang diberikan]
+- [Sebutkan rank yang diberikan]
+
+Tenggat waktu (jika ada): [tanggal atau "tidak ada"]
+
+Konsekuensi jika gagal: [sesuai aturan server]
+
+Dengan ini kedua pihak menyatakan setuju dan memahami risiko.
+~~~
+
+Kedua pihak harus mengetik **"Saya setuju"** di dalam ticket. Staff akan mengonfirmasi dan mengunci pesan tersebut sebagai bukti.
+
+---
+
+### 8. Hubungan dengan Peraturan Server Utama
+- Aturan WTT ini merupakan tambahan dari Peraturan Server KandangAlwi, khusus untuk transaksi yang melibatkan rank.
+- Untuk transaksi yang tidak melibatkan rank seperti item ↔️ item dan item ↔️ balance, aturan server umum tentang penipuan tetap berlaku.
+- Jika ada ketentuan dalam aturan WTT yang bertentangan dengan peraturan server utama, maka peraturan server utama yang berlaku.
+- RMT tetap dilarang keras sesuai Pasal 2 Ayat 7 Peraturan Server.
+- Donasi ke server adalah satu-satunya transaksi dengan uang asli yang diizinkan.
+
+---
+
+### 9. Penutup
+Dengan mengikuti aturan ini, kami berharap semua transaksi WTT yang melibatkan rank berjalan aman, adil, dan nyaman bagi seluruh pemain KandangAlwi.
+
+**Mulai sekarang, untuk setiap transaksi WTT yang melibatkan rank, wajib buka ticket!**
+
+> Peraturan ini dapat berubah sewaktu-waktu dengan pemberitahuan di Discord.
+`,
+        footer: "KandangAlwi Rules • Pasal 5 dari 5",
     },
 ];
 

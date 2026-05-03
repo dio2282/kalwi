@@ -87,12 +87,14 @@ const RuleContent = ({ rule }: { rule: RuleSection }) => {
                                 <p className="text-white/70 mb-3">{children}</p>
                             ),
                             ul: ({ children }) => (
-                                <ul className="space-y-2 mb-4">{children}</ul>
+                                <ul className="list-disc pl-5 space-y-2 mb-4">{children}</ul>
+                            ),
+                            ol: ({ children }) => (
+                                <ol className="list-decimal pl-5 space-y-2 mb-4">{children}</ol>
                             ),
                             li: ({ children }) => (
-                                <li className="flex items-start gap-2 text-white/70">
-                                    <ChevronRight className="w-4 h-4 text-[#30b4ff] mt-1 shrink-0" />
-                                    <span>{children}</span>
+                                <li className="pl-1 text-white/70 marker:text-[#30b4ff]">
+                                    {children}
                                 </li>
                             ),
                             strong: ({ children }) => (
@@ -100,10 +102,20 @@ const RuleContent = ({ rule }: { rule: RuleSection }) => {
                                     {children}
                                 </strong>
                             ),
+                            pre: ({ children }) => (
+                                <pre className="mb-4 overflow-x-auto whitespace-pre-wrap rounded-xl border border-white/10 bg-black/40 p-4 text-sm leading-relaxed text-white/70">
+                                    {children}
+                                </pre>
+                            ),
                             code: ({ children }) => (
                                 <code className="px-1.5 py-0.5 bg-white/10 rounded text-[#30b4ff] text-sm">
                                     {children}
                                 </code>
+                            ),
+                            blockquote: ({ children }) => (
+                                <blockquote className="mb-4 border-l-4 border-[#30b4ff]/60 bg-[#30b4ff]/10 py-3 pl-4 pr-3 text-white/70">
+                                    {children}
+                                </blockquote>
                             ),
                             hr: () => (
                                 <hr className="border-white/10 my-6" />
