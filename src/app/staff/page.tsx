@@ -21,8 +21,10 @@ import starsBg from "@/assets/stars.png";
 const roleIcons: Record<StaffRole, React.ElementType> = {
     Owner: Crown,
     "Co-Owner": Crown,
+    Supervisor: Shield,
     Developer: Code,
     Admin: Shield,
+    Builder: Users,
     Moderator: Shield,
     Helper: HelpCircle,
 };
