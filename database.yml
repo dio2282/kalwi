@@ -1,0 +1,164 @@
+prefix-899643995116961812: '!'
+staff_list:
+  level6:
+    - userId: '688814949031870573'
+      uuid: null
+      username: null
+      tag: kalwi.net
+    - userId: '819573006523301898'
+      uuid: null
+      username: null
+      tag: xlqcys
+    - userId: '836862239742230569'
+      uuid: b35901e5-4a25-4ac6-9af9-73e3fda5a86a
+      username: dev_dio
+      tag: dev_dio
+    - userId: '304818838388736001'
+      uuid: null
+      username: null
+      tag: mixers_.
+  level5:
+    - userId: '935834079792877599'
+      uuid: 1f0c53a6-4790-4ef1-a395-bae27b9c9c3d
+      username: graciellyn_
+      tag: graciellyn
+  level4:
+    - userId: '1339925768729526395'
+      uuid: c0bcd8f2-4de7-4d8e-bf82-ca544de5312b
+      username: fatomi93
+      tag: fatomi_aja
+    - userId: '853270674625658920'
+      uuid: 7bb4d025-efd2-4ea1-bd3a-59e031927b09
+      username: rv_kuda
+      tag: chandrakusuma.
+    - userId: '1336297634800992266'
+      uuid: null
+      username: null
+      tag: vastantelope
+    - userId: '461887119309275136'
+      uuid: 00000000-0000-0000-0009-01ffa09b6aaf
+      username: .vastantelope157
+      tag: blezz3199
+    - userId: '948073956533993472'
+      uuid: 4f8a951a-2b0e-420d-9661-c3577cdef29d
+      username: imanuelle
+      tag: yggdrasilhunter
+    - userId: '188610034849021952'
+      uuid: null
+      username: null
+      tag: respire
+    - userId: '318402949548343317'
+      uuid: f49ec085-cc23-4d37-88cd-26d014cfadb3
+      username: kanamiybh
+      tag: yasashikanami
+    - userId: '1419289547157667860'
+      uuid: null
+      username: null
+      tag: meirzhan522
+    - userId: '1361319410110955681'
+      uuid: null
+      username: null
+      tag: cooby_
+    - userId: '947399608567496744'
+      uuid: 36269c4a-4e22-428b-a30e-85b22b27df5b
+      username: killerwolf4840
+      tag: killerwolf4840
+    - userId: '790573000436482068'
+      uuid: null
+      username: null
+      tag: tokuyaizuki
+  level3:
+    - userId: '1225116764065632310'
+      uuid: 8a031765-8a11-4d72-a66e-7462f1b7cca2
+      username: rielvtuber
+      tag: rielrudesu001
+    - userId: '715544424943321111'
+      uuid: 91385b9d-90c2-47b7-95d3-bad782e0c2cc
+      username: bangucop
+      tag: ap4lu
+    - userId: '1389900395018457139'
+      uuid: cb2593aa-c4d5-4ba0-b1f9-a5e0ca38f5e1
+      username: humblesaturn469
+      tag: najibhumble
+    - userId: '1451227567817494772'
+      uuid: 462a38e9-b86d-4f0a-ade6-2a851fb6628f
+      username: nandagmg25
+      tag: nanda_292
+    - userId: '234241635037347850'
+      uuid: 638357bd-e380-4845-872b-b72213269b2c
+      username: janji081
+      tag: useless_af081
+    - userId: '968633128711237702'
+      uuid: null
+      username: null
+      tag: gethanel
+    - userId: '302200899009249291'
+      uuid: null
+      username: null
+      tag: reiiap
+    - userId: '1453570706867753063'
+      uuid: null
+      username: null
+      tag: himacelsi
+    - userId: '661062898340200449'
+      uuid: 21147e75-1a35-4195-ad07-1bf3fcfd469f
+      username: pukislukis
+      tag: lukisspukis
+    - userId: '394679467378868235'
+      uuid: d46d02a6-00aa-4fc2-ade9-ba0a0ffb6bf8
+      username: coobylah
+      tag: coobylah
+    - userId: '890087200459481158'
+      uuid: null
+      username: null
+      tag: neowz_1x
+  level2:
+    - userId: '1452280674273857599'
+      uuid: 00000000-0000-0000-0009-01ff6dd0353d
+      username: .reja9988
+      tag: reja99880637
+    - userId: '1085892979811680317'
+      uuid: 00000000-0000-0000-0009-01f867203837
+      username: .swankylily39
+      tag: rezky.991
+    - userId: '1034616673044537364'
+      uuid: 72572192-a180-4b65-b917-9e44bca9ed02
+      username: mainku22
+      tag: set1111303
+    - userId: '1483340104868302859'
+      uuid: 1473a81d-f39a-4b0d-a45e-557d6651b450
+      username: bijiwangy
+      tag: bijiwangy
+    - userId: '1430508060132114432'
+      uuid: 0bd72c55-f105-4a52-bc74-864bada0e0a6
+      username: fallz7771
+      tag: fallzd
+    - userId: '705767831341367298'
+      uuid: dc7523b1-a70a-4fcb-b2d1-9710cfbd3bb0
+      username: mocikhoara
+      tag: mocikhoara
+    - userId: '1384408825427263600'
+      uuid: null
+      username: null
+      tag: lau_sape_mpruy
+    - userId: '1269624353541062720'
+      uuid: 7efa4446-6c80-4fb3-b061-528ad03c8381
+      username: axa_nyeni
+      tag: axa1241_98350
+    - userId: '1232243670040838184'
+      uuid: 8d8ae30b-3b9a-4b5e-84ee-8d5a9d5a2622
+      username: zeephyrrr
+      tag: seeenpaii1
+anti_phishing_temp_bans:
+  - guildId: '841152050934579201'
+    userId: '447622734281834497'
+    unbanAt: 1779272331952
+    reason: >-
+      Temporary anti-phishing guard ban: chat in protected channel
+      1493266209431621693
+  - guildId: '841152050934579201'
+    userId: '781762662534217728'
+    unbanAt: 1779310687661
+    reason: >-
+      Temporary anti-phishing guard ban: chat in protected channel
+      1493266209431621693

@@ -54,7 +54,7 @@ export const rulesIndonesia: RuleSection[] = [
 - **Pelanggaran Kedua:** \`Ban\` sementara 1 jam.
 - **Pelanggaran Ketiga:** \`Ban\` sementara 6 jam.
 `,
-        footer: "KandangAlwi Rules • Pasal 1 dari 5",
+        footer: "KandangAlwi Rules • Pasal 1 dari 6",
     },
     {
         id: "pasal-2",
@@ -154,7 +154,7 @@ export const rulesIndonesia: RuleSection[] = [
 
 **Sanksi:** Ban 3 hari → Ban 7 hari → Ban permanen.
 `,
-        footer: "KandangAlwi Rules • Pasal 2 dari 5",
+        footer: "KandangAlwi Rules • Pasal 2 dari 6",
     },
     {
         id: "pasal-3",
@@ -176,7 +176,7 @@ export const rulesIndonesia: RuleSection[] = [
 - \`Staff\` akan meninjau dan mempertimbangkan \`appeal\` tersebut.
 - Proses appeal membutuhkan penjelasan lengkap tentang pelanggaran.
 `,
-        footer: "KandangAlwi Rules • Pasal 3 dari 5",
+        footer: "KandangAlwi Rules • Pasal 3 dari 6",
     },
     {
         id: "pasal-4",
@@ -197,15 +197,17 @@ export const rulesIndonesia: RuleSection[] = [
 - Pemain diharapkan untuk selalu mengikuti update peraturan terbaru.
 - Ketidaktahuan terhadap aturan baru bukan alasan untuk bebas dari sanksi.
 `,
-        footer: "KandangAlwi Rules • Pasal 4 dari 5",
+        footer: "KandangAlwi Rules • Pasal 4 dari 6",
     },
     {
         id: "pasal-5",
         label: "Pasal 5: WTT Rank",
         emoji: "📢",
         color: "#30B4FF",
-        title: "📢 PASAL 5: PERATURAN WTT KHUSUS RANK",
+        title: "📢 PASAL 5: PERATURAN WTT (WANT TO TRADE) KHUSUS YANG MELIBATKAN RANK",
         content: `
+### Item / Balance / Jasa ↔️ Rank
+
 ### 1. Pendahuluan
 Aturan ini **hanya berlaku untuk transaksi WTT yang melibatkan rank premium** sebagai salah satu sisi pertukaran.
 
@@ -262,7 +264,7 @@ Ticket dibuka di **Discord server KandangAlwi** melalui channel khusus. Ticket b
 - Kedua pihak wajib bergabung di server Discord KandangAlwi.
 
 **Cara membuka ticket:**
-1. Salah satu player pergi ke channel \`#「🎫」open-ticket\` atau channel open ticket sesuai nama yang berlaku di server.
+1. Salah satu player pergi ke channel **\`#「」open-ticket\`** atau channel open ticket sesuai nama yang berlaku di server.
 2. Player membuka ticket baru dengan memilih kategori bebas, misalnya \`Support\`, \`Ask\`, \`Other\`, atau kategori lain yang tersedia.
 3. Setelah ticket terbuka, staff akan mengubah kategori ticket tersebut menjadi \`Parking\` khusus untuk keperluan WTT.
 4. Di dalam channel ticket yang baru terbuat, player menjelaskan maksud transaksi WTT kepada staff Helper dan melampirkan mention Discord pihak yang diajak WTT.
@@ -381,7 +383,31 @@ Dengan mengikuti aturan ini, kami berharap semua transaksi WTT yang melibatkan r
 
 > Peraturan ini dapat berubah sewaktu-waktu dengan pemberitahuan di Discord.
 `,
-        footer: "KandangAlwi Rules • Pasal 5 dari 5",
+        footer: "KandangAlwi Rules • Pasal 5 dari 6",
+    },
+    {
+        id: "pasal-6",
+        label: "Pasal 6: Tambahan Kedua",
+        emoji: "🧾",
+        color: "#14B8A6",
+        title: "🧾 PASAL 6: PERATURAN TAMBAHAN KEDUA",
+        content: `
+### Etika Open Ticket
+Dalam membuka ticket, mohon perhatikan etika berikut:
+
+1. Dilarang menggunakan bahasa yang tidak sopan ataupun memaksa staff untuk segera meng-handle ticket tersebut secara kasar.
+2. Dilarang memberikan informasi pribadi yang sensitif.
+3. Dilarang menghina staff maupun server.
+
+---
+
+### Peraturan Tambahan Eco PvP
+1. Dilarang melakukan flood.
+2. Dilarang menggunakan kata yang bersifat menghina.
+3. Dilarang membahas politik maupun kebudayaan, termasuk Suku, Agama, Ras, dan Antar golongan.
+4. Dilarang melakukan spam.
+`,
+        footer: "KandangAlwi Rules • Pasal 6 dari 6",
     },
 ];
 
@@ -423,7 +449,7 @@ export const rulesEnglish: RuleSection[] = [
 - **Second Offense:** Temporary \`Ban\` for 1 hour.
 - **Third Offense:** Temporary \`Ban\` for 6 hours.
 `,
-        footer: "KandangAlwi Rules • Article 1 of 4",
+        footer: "KandangAlwi Rules • Article 1 of 6",
     },
     {
         id: "article-2",
@@ -479,7 +505,7 @@ export const rulesEnglish: RuleSection[] = [
 - \`Gambling\` is forbidden: Ban 3 days → 7 days → 14 days.
 - \`Account sharing\` is forbidden: Ban 3 days → 7 days → permanent.
 `,
-        footer: "KandangAlwi Rules • Article 2 of 4",
+        footer: "KandangAlwi Rules • Article 2 of 6",
     },
     {
         id: "article-3",
@@ -500,7 +526,7 @@ export const rulesEnglish: RuleSection[] = [
 - Penalized players have the right to file an \`appeal\` on \`Discord Support\`.
 - \`Staff\` will review and consider the \`appeal\`.
 `,
-        footer: "KandangAlwi Rules • Article 3 of 4",
+        footer: "KandangAlwi Rules • Article 3 of 6",
     },
     {
         id: "article-4",
@@ -519,7 +545,209 @@ export const rulesEnglish: RuleSection[] = [
 - The \`server\` reserves the right to change the rules at any time with notification on \`Discord\`.
 - Players are expected to stay updated with the latest rules.
 `,
-        footer: "KandangAlwi Rules • Article 4 of 4",
+        footer: "KandangAlwi Rules • Article 4 of 6",
+    },
+    {
+        id: "article-5",
+        label: "Article 5: WTT Rank",
+        emoji: "📢",
+        color: "#30B4FF",
+        title: "📢 ARTICLE 5: WTT RULES SPECIFIC TO RANK TRADES",
+        content: `
+### Item / Balance / Services ↔️ Rank
+
+### 1. Introduction
+This rule **only applies to WTT transactions involving a premium rank** as one side of the exchange. Examples include item ↔️ rank, balance ↔️ rank, service ↔️ rank, rank ↔️ item, rank ↔️ balance, and rank ↔️ service.
+
+**Transactions that do not involve rank** such as item ↔️ item, item ↔️ balance, service ↔️ item, and similar trades **are not governed** by this rule and are not required to use a ticket. However, they remain subject to the general server rules about scamming.
+
+The purposes of this special rule are:
+- Protect both parties from scams in transactions involving rank.
+- Provide an official channel and valid transaction evidence.
+- Provide clear protection for long-term service transactions, such as build services involving rank.
+
+---
+
+### 2. WTT Transactions Covered by This Rule
+**Transactions that must follow this rule because they involve rank:**
+- In-game items from the KandangAlwi server ↔️ Rank.
+- Balance or in-game money ↔️ Rank.
+- Services such as building, design, and similar work ↔️ Rank.
+- Rank ↔️ In-game item.
+- Rank ↔️ Balance.
+- Rank ↔️ Service.
+
+**Transactions not governed by this rule and not required to use a ticket:**
+- Item ↔️ Item, where both sides are in-game items.
+- Item ↔️ Balance.
+- Balance ↔️ Balance.
+- Service ↔️ Item without rank.
+- Service ↔️ Balance without rank.
+
+**Still forbidden under the main server rules:**
+- Items from another server or game ↔️ KandangAlwi Rank.
+- Real-money transactions or RMT.
+
+---
+
+### 3. Open Ticket Requirement
+**All transactions involving rank must go through Open Ticket.**
+
+Tickets are opened in the **KandangAlwi Discord server** through the designated channel. A ticket functions as:
+- Official transaction evidence.
+- A place for staff to monitor and mediate.
+- A written agreement archive.
+- A safe communication channel without suspicion.
+
+**Requirements before opening a ticket:**
+- Both parties must have Discord accounts.
+- Both parties must join the KandangAlwi Discord server.
+
+**How to open a ticket:**
+1. One player goes to the **\`#「」open-ticket\`** channel, or the active open ticket channel name used by the server.
+2. The player opens a new ticket by choosing any available category, such as \`Support\`, \`Ask\`, \`Other\`, or another available category.
+3. After the ticket is opened, staff will change the ticket category to \`Parking\` for WTT purposes.
+4. In the new ticket channel, the player explains the WTT transaction to Helper staff and includes the Discord mention of the other WTT party.
+5. Staff with the **Moderator** or **Admin** role will enter the ticket and act as mediator.
+6. The Moderator will provide the agreement format that must be filled in by both parties.
+7. All negotiation and agreement steps must happen inside the ticket with staff as mediator. This process is free.
+8. Once the agreement is complete and the transaction is declared valid, **Helper** will close the ticket.
+
+**Transactions outside tickets for trades involving rank:**
+- The transaction is not protected by the server.
+- If a scam occurs, staff will not process the report.
+- Both parties fully accept the risk.
+- If staff discover a WTT transaction involving rank without a ticket, both parties may still receive a light sanction, such as a warning, for violating the server safety procedure.
+
+---
+
+### 4. Violation Penalties
+**Penalties for forcing a transaction without a ticket:**
+- First offense discovered by staff: Warning.
+- Second offense: Temporary ban for 3 days.
+- Third offense: Permanent ban from WTT rank services, or account ban.
+
+**Penalties for scamming inside a ticket:**
+- Temporary ban for 7 days for the scammer.
+- Staff will try to recover the harmed assets if possible.
+- The scammer will be recorded in the server WTT blacklist.
+
+**Additional penalties:**
+- If the scammer has a prior scam history, staff may issue a permanent ban.
+- Stolen items or scam proceeds will be confiscated.
+
+---
+
+### 5. Special Rules for Build Service to Rank
+Because build services paid with rank can take a long time, the following rules apply.
+
+**The initial agreement must be made in a ticket. The agreement must include:**
+- Build details, including size, style, and deadline if any.
+- Reward details, including which rank, when it is given, and whether there is a down payment.
+- Consequences if either party fails to fulfill the agreement.
+
+**Parking hold ticket for build services:**
+- If the build takes more than 3 days, the ticket already in the \`Parking\` category may be kept on hold.
+- Staff may set a maximum hold period of 14 days.
+- After that, if there is no update, the ticket will be closed and the agreement is considered cancelled unless staff grant an extension.
+
+**If the renter or rank giver does not pay after the build is completed:**
+1. Staff will check completion evidence from the builder.
+2. If the build is proven complete according to the agreement but the renter does not give the rank, staff will freeze the built land so the renter cannot access it until payment is made.
+3. If payment is still not made after 7 days, ownership of the built area may be transferred to the builder, only for the area that was built and not the renter's entire land.
+
+**If the builder fails to complete the build after receiving a temporary rank DP:**
+- The renter may provide a temporary rank, such as Supporter, to the builder as DP or to help the builder work.
+- Temporary rank is given by staff, not directly by the renter.
+- Temporary rank will be revoked after the build is complete or if the agreement is cancelled.
+- If the builder is proven to have failed the agreement without a valid reason, such as disappearing or not working, the temporary rank will be revoked.
+- Staff may transfer the temporary rank to the renter's alt account as compensation.
+- The builder may also receive additional sanctions, such as a temporary ban or blacklist.
+
+---
+
+### 6. Staff Roles
+**Helper:**
+- Greets players, closes tickets, and makes sure players monitor the ticket.
+- Escalates to Moderator when needed.
+
+**Moderator and above, including Moderator, Admin, and Owner:**
+- Acts as the official mediator.
+- Reviews evidence, decides sanctions, and resolves disputes.
+
+**Fee:** There is no fee for WTT services through tickets.
+
+**Response target:** Maximum 2x24 hours, except during holidays or staff breaks.
+
+---
+
+### 7. Evidence Format in Ticket
+Every WTT ticket involving rank must include an agreement message approved by both parties.
+
+Minimum format:
+
+~~~
+WTT Agreement (involving rank) between:
+- Party 1: [Minecraft & Discord name]
+- Party 2: [Minecraft & Discord name]
+
+Transaction type: [item/balance/service] ↔️ [rank]
+Details:
+- [State the item/balance/service being given]
+- [State the rank being given]
+
+Deadline (if any): [date or "none"]
+
+Consequences if failed: [according to server rules]
+
+Both parties hereby agree and understand the risks.
+~~~
+
+Both parties must type **"I agree"** inside the ticket. Staff will confirm and lock the message as evidence.
+
+---
+
+### 8. Relationship with the Main Server Rules
+- This WTT rule is an addition to the KandangAlwi Server Rules, specifically for transactions involving rank.
+- For transactions that do not involve rank, such as item ↔️ item and item ↔️ balance, the general server rules about scamming still apply.
+- If any WTT rule conflicts with the main server rules, the main server rules apply.
+- RMT remains strictly forbidden under Article 2 Clause 7 of the Server Rules.
+- Donations to the server are the only real-money transaction allowed.
+
+---
+
+### 9. Closing
+By following this rule, we hope all WTT transactions involving rank can be safe, fair, and comfortable for all KandangAlwi players.
+
+**Starting now, every WTT transaction involving RANK must open a ticket!**
+
+> This rule may change at any time with notice on Discord.
+`,
+        footer: "KandangAlwi Rules • Article 5 of 6",
+    },
+    {
+        id: "article-6",
+        label: "Article 6: Second Addendum",
+        emoji: "🧾",
+        color: "#14B8A6",
+        title: "🧾 ARTICLE 6: SECOND ADDITIONAL RULES",
+        content: `
+### Open Ticket Etiquette
+When opening a ticket, please follow this etiquette:
+
+1. Do not use rude language or force staff to handle the ticket immediately in a harsh manner.
+2. Do not share sensitive personal information.
+3. Do not insult staff or the server.
+
+---
+
+### Additional Eco PvP Rules
+1. Flooding is forbidden.
+2. Using insulting words is forbidden.
+3. Discussing politics or cultural identity topics, including ethnicity, religion, race, or inter-group issues, is forbidden.
+4. Spamming is forbidden.
+`,
+        footer: "KandangAlwi Rules • Article 6 of 6",
     },
 ];
 
@@ -543,13 +771,13 @@ export const getRulesByLanguage = (lang: Language): RuleSection[] => {
 export const getLanguageLabel = (lang: Language): string => {
     switch (lang) {
         case "indonesia":
-            return "🇮🇩 Bahasa Indonesia";
+            return "Bahasa Indonesia";
         case "english":
-            return "🇬🇧 English";
+            return "English";
         case "malaysia":
-            return "🇲🇾 Bahasa Melayu";
+            return "Bahasa Melayu";
         default:
-            return "🇮🇩 Bahasa Indonesia";
+            return "Bahasa Indonesia";
     }
 };
 

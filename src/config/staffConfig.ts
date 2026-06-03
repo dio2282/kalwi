@@ -99,44 +99,123 @@ export const staffMembers: StaffMember[] = [
   // ╔═══════════════════════════════════════════════════════════════════════╗
   // ║ DEVELOPER - Tambah developer di sini                                   ║
   // ╚═══════════════════════════════════════════════════════════════════════╝
-  {
-    username: "pukislukis",
-    role: "Developer",
-    discord: "lukisspukis",
-  },
-
-  {
-    username: "coobylah",
-    role: "Developer",
-    discord: "coobylah",
-  },
 
   // ╔═══════════════════════════════════════════════════════════════════════╗
   // ║ ADMIN - Tambah admin di sini                                           ║
   // ╚═══════════════════════════════════════════════════════════════════════╝
-  // {
-  //   username: "admin_username",
-  //   role: "Admin",
-  //   discord: "",
-  // },
+  {
+    username: "fatomi93",
+    role: "Admin",
+    discord: "fatomi_aja",
+  },
+  {
+    username: "rv_kuda",
+    role: "Admin",
+    discord: "chandrakusuma.",
+  },
+  {
+    username: ".vastantelope157",
+    role: "Admin",
+    discord: "blezz3199",
+  },
+  {
+    username: "imanuelle",
+    role: "Admin",
+    discord: "yggdrasilhunter",
+  },
+  {
+    username: "kanamiybh",
+    role: "Admin",
+    discord: "yasashikanami",
+  },
+  {
+    username: "killerwolf4840",
+    role: "Admin",
+    discord: "killerwolf4840",
+  },
 
   // ╔═══════════════════════════════════════════════════════════════════════╗
   // ║ MODERATOR - Tambah moderator di sini                                   ║
   // ╚═══════════════════════════════════════════════════════════════════════╝
-  // {
-  //   username: "mod_username",
-  //   role: "Moderator",
-  //   discord: "",
-  // },
+  {
+    username: "rielvtuber",
+    role: "Moderator",
+    discord: "rielrudesu001",
+  },
+  {
+    username: "bangucop",
+    role: "Moderator",
+    discord: "ap4lu",
+  },
+  {
+    username: "humblesaturn469",
+    role: "Moderator",
+    discord: "najibhumble",
+  },
+  {
+    username: "nandagmg25",
+    role: "Moderator",
+    discord: "nanda_292",
+  },
+  {
+    username: "janji081",
+    role: "Moderator",
+    discord: "useless_af081",
+  },
+  {
+    username: "pukislukis",
+    role: "Moderator",
+    discord: "lukisspukis",
+  },
+  {
+    username: "coobylah",
+    role: "Moderator",
+    discord: "coobylah",
+  },
 
   // ╔═══════════════════════════════════════════════════════════════════════╗
   // ║ HELPER - Tambah helper di sini                                         ║
   // ╚═══════════════════════════════════════════════════════════════════════╝
-  // {
-  //   username: "helper_username",
-  //   role: "Helper",
-  //   discord: "",
-  // },
+  {
+    username: ".reja9988",
+    role: "Helper",
+    discord: "reja99880637",
+  },
+  {
+    username: ".swankylily39",
+    role: "Helper",
+    discord: "rezky.991",
+  },
+  {
+    username: "mainku22",
+    role: "Helper",
+    discord: "set1111303",
+  },
+  {
+    username: "bijiwangy",
+    role: "Helper",
+    discord: "bijiwangy",
+  },
+  {
+    username: "fallz7771",
+    role: "Helper",
+    discord: "fallzd",
+  },
+  {
+    username: "mocikhoara",
+    role: "Helper",
+    discord: "mocikhoara",
+  },
+  {
+    username: "axa_nyeni",
+    role: "Helper",
+    discord: "axa1241_98350",
+  },
+  {
+    username: "zeephyrrr",
+    role: "Helper",
+    discord: "seeenpaii1",
+  },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════

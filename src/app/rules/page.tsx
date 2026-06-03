@@ -137,6 +137,35 @@ const RuleContent = ({ rule }: { rule: RuleSection }) => {
     );
 };
 
+const FlagIcon = ({ language }: { language: Language }) => {
+    if (language === "english") {
+        return (
+            <span
+                aria-hidden="true"
+                className="relative inline-block h-4 w-6 shrink-0 overflow-hidden rounded-[2px] shadow-[0_0_0_1px_rgba(255,255,255,0.25)]"
+                style={{
+                    backgroundImage:
+                        "linear-gradient(90deg, transparent 44%, #ffffff 44%, #ffffff 56%, transparent 56%), linear-gradient(0deg, transparent 38%, #ffffff 38%, #ffffff 62%, transparent 62%), linear-gradient(90deg, transparent 48%, #c8102e 48%, #c8102e 52%, transparent 52%), linear-gradient(0deg, transparent 44%, #c8102e 44%, #c8102e 56%, transparent 56%), linear-gradient(33deg, transparent 43%, #ffffff 43%, #ffffff 52%, transparent 52%), linear-gradient(-33deg, transparent 43%, #ffffff 43%, #ffffff 52%, transparent 52%), linear-gradient(33deg, transparent 47%, #c8102e 47%, #c8102e 50%, transparent 50%), linear-gradient(-33deg, transparent 47%, #c8102e 47%, #c8102e 50%, transparent 50%)",
+                    backgroundColor: "#012169",
+                }}
+            />
+        );
+    }
+
+    return (
+        <span
+            aria-hidden="true"
+            className="inline-block h-4 w-6 shrink-0 overflow-hidden rounded-[2px] bg-[linear-gradient(to_bottom,#e70011_0_50%,#ffffff_50%_100%)] shadow-[0_0_0_1px_rgba(255,255,255,0.25)]"
+        />
+    );
+};
+
+const updatedLabel: Record<Language, string> = {
+    indonesia: "Terakhir diperbarui: 3 Juni 2026",
+    malaysia: "Terakhir diperbarui: 3 Jun 2026",
+    english: "Last updated: June 3, 2026",
+};
+
 export default function RulesPage() {
     const [language, setLanguage] = useState<Language>("indonesia");
     const [activeRuleId, setActiveRuleId] = useState<string | null>(null);
@@ -174,6 +203,9 @@ export default function RulesPage() {
                             <BookOpen className="w-4 h-4 text-[#30b4ff]" />
                             <span className="text-sm text-white/70">Server Guidelines</span>
                         </div>
+                        <div className="mb-4 text-sm font-medium text-[#30b4ff]">
+                            {updatedLabel[language]}
+                        </div>
 
                         <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
                             Server{" "}
@@ -207,11 +239,12 @@ export default function RulesPage() {
                                     setLanguage(lang);
                                     setActiveRuleId(null);
                                 }}
-                                className={`px-4 py-2 rounded-lg border transition-all duration-300 ${language === lang
+                                className={`inline-flex items-center gap-2 px-4 py-2 rounded-lg border transition-all duration-300 ${language === lang
                                         ? "bg-[#30b4ff]/20 border-[#30b4ff]/50 text-[#30b4ff]"
                                         : "bg-white/5 border-white/10 text-white/60 hover:border-white/20"
                                     }`}
                             >
+                                <FlagIcon language={lang} />
                                 {getLanguageLabel(lang)}
                             </button>
                         ))}
