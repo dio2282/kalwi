@@ -99,44 +99,37 @@ export const staffMembers: StaffMember[] = [
   // ╔═══════════════════════════════════════════════════════════════════════╗
   // ║ DEVELOPER - Tambah developer di sini                                   ║
   // ╚═══════════════════════════════════════════════════════════════════════╝
+  {
+    username: "pukislukis",
+    role: "Developer",
+    discord: "lukisspukis",
+  },
+  {
+    username: "coobylah",
+    role: "Developer",
+    discord: "coobylah",
+  },
 
   // ╔═══════════════════════════════════════════════════════════════════════╗
   // ║ ADMIN - Tambah admin di sini                                           ║
   // ╚═══════════════════════════════════════════════════════════════════════╝
-  {
-    username: "fatomi93",
-    role: "Admin",
-    discord: "fatomi_aja",
-  },
+
   {
     username: "rv_kuda",
     role: "Admin",
     discord: "chandrakusuma.",
   },
   {
-    username: ".vastantelope157",
-    role: "Admin",
-    discord: "blezz3199",
-  },
-  {
-    username: "imanuelle",
-    role: "Admin",
-    discord: "yggdrasilhunter",
-  },
-  {
     username: "kanamiybh",
     role: "Admin",
     discord: "yasashikanami",
   },
-  {
-    username: "killerwolf4840",
-    role: "Admin",
-    discord: "killerwolf4840",
-  },
+
 
   // ╔═══════════════════════════════════════════════════════════════════════╗
   // ║ MODERATOR - Tambah moderator di sini                                   ║
   // ╚═══════════════════════════════════════════════════════════════════════╝
+  /**
   {
     username: "rielvtuber",
     role: "Moderator",
@@ -161,16 +154,6 @@ export const staffMembers: StaffMember[] = [
     username: "janji081",
     role: "Moderator",
     discord: "useless_af081",
-  },
-  {
-    username: "pukislukis",
-    role: "Moderator",
-    discord: "lukisspukis",
-  },
-  {
-    username: "coobylah",
-    role: "Moderator",
-    discord: "coobylah",
   },
 
   // ╔═══════════════════════════════════════════════════════════════════════╗
@@ -216,6 +199,8 @@ export const staffMembers: StaffMember[] = [
     role: "Helper",
     discord: "seeenpaii1",
   },
+
+   */
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════
