@@ -225,6 +225,33 @@ export interface CareerOpening {
 }
 
 export const careerOpenings: CareerOpening[] = [
+  {
+    id: "helper-server-2026",
+    title: "Helper Server",
+    description:
+      "Open Recruitment Staff KALWI 2026 untuk player aktif yang ingin membantu kelancaran server. Periode pendaftaran: 5 Juni - 15 Juni 2026.",
+    isOpen: true,
+    requirements: [
+      "Berstatus player aktif KALWI.",
+      "Memiliki komunikasi yang baik dan ramah.",
+      "Siap membantu player lain yang membutuhkan informasi atau bantuan teknis.",
+    ],
+    generalRequirements: [
+      "Aktif dan peduli dengan komunitas KALWI.",
+      "Mampu menjaga sikap saat membantu player.",
+      "Kontak Discord: graciellyn.",
+    ],
+    benefits: [
+      "Berkontribusi langsung dalam menjaga kelancaran server.",
+      "Kesempatan membantu sesama player KALWI.",
+      "Bergabung sebagai bagian dari Staff KALWI 2026.",
+    ],
+    applyMethod: {
+      type: "gform",
+      url: "https://forms.gle/LbcoBkNPpd9xcwsR6",
+      label: "Daftar Helper",
+    },
+  },
   /*
     {
         id: "skyblock-developer",
