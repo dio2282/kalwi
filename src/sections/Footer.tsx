@@ -22,6 +22,7 @@ const navLinks = [
   { href: "/staff", label: "Staff", id: "staff-link" },
   { href: "/career", label: "Career", id: "career-link" },
   { href: "/rules", label: "Rules", id: "rules-link" },
+  { href: "/rules/discord", label: "Discord Rules", id: "discord-rules-link" },
   { href: "https://wa.link/h8r00y", label: "Support", id: "support-link" },
 ];
 

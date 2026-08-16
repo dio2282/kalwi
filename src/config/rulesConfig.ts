@@ -392,20 +392,58 @@ Dengan mengikuti aturan ini, kami berharap semua transaksi WTT yang melibatkan r
         color: "#14B8A6",
         title: "🧾 PASAL 6: PERATURAN TAMBAHAN KEDUA",
         content: `
-### Etika Open Ticket
-Dalam membuka ticket, mohon perhatikan etika berikut:
+### Etika Helpme
+Dalam menggunakan helpme (ticket in-game), mohon perhatikan etika berikut:
 
-1. Dilarang menggunakan bahasa yang tidak sopan ataupun memaksa staff untuk segera meng-handle ticket tersebut secara kasar.
+1. Dilarang menggunakan bahasa yang tidak sopan ataupun memaksa staff untuk segera menghandle helpme tersebut secara kasar.
 2. Dilarang memberikan informasi pribadi yang sensitif.
-3. Dilarang menghina staff maupun server.
+3. Dilarang untuk menghina staff maupun server.
+
+**Sanksi:**
+- **Pelanggaran Pertama:** \`Ban 3 Jam\`.
+- **Pelanggaran Kedua:** \`Ban 6 Jam\`
+- **Pelanggaran Ketiga:** \`Ban 1 Hari\`
+- **Pelanggaran Berulang (>3x):** \`Ban > 1 Hari\`
 
 ---
 
-### Peraturan Tambahan Eco PvP
+### Peraturan Tambahan Eco PvP dan Survival War
+#### Peraturan Etika
 1. Dilarang melakukan flood.
-2. Dilarang menggunakan kata yang bersifat menghina.
-3. Dilarang membahas politik maupun kebudayaan, termasuk Suku, Agama, Ras, dan Antar golongan.
+2. Dilarang menggunakan kata yang bersifat menghina/merendahkan.
+3. Dilarang membahas politik, maupun kebudayaan (Suku, Agama, Ras, Antar golongan).
 4. Dilarang melakukan spam.
+
+**Sanksi:**
+- **Pelanggaran Pertama:** \`Warning\`.
+- **Pelanggaran Kedua:** \`Mute\` sementara 30 menit.
+- **Pelanggaran Ketiga:** \`Mute\` sementara 1 jam.
+- **Pelanggaran Berulang (>3x):** \`Mute\` sementara 3 jam.
+
+#### Peraturan Lainnya
+1. Dilarang melakukan trap.
+2. Dilarang untuk menggunakan mod seperti x-ray dan freecam.
+
+**Sanksi:**
+- **Pelanggaran Pertama:** \`Ban 6 Jam\`.
+- **Pelanggaran Kedua:** \`Ban 1 Hari\`.
+- **Pelanggaran Ketiga:** \`Ban 3 Hari\`.
+- **Pelanggaran Berulang (>3x):** \`Ban 5-7 Hari\`.
+
+---
+
+### Aturan ADV (Advertisement)
+Dilarang melakukan promosi server lain maupun menyebut nama server lain.
+
+**Sanksi:**
+- Sanksi akan diberikan sesuai konteksnya.
+
+---
+
+### Aturan Peminjaman Barang
+Diperbolehkan untuk meminjamkan barang, namun jika tidak dikembalikan atau dihilangkan akan menjadi urusan kedua player, bukan player ke staff.
+
+Staff tidak akan melakukan pengembalian barang terkait barang yang dipinjamkan.
 `,
         footer: "KandangAlwi Rules • Pasal 6 dari 6",
     },
@@ -732,20 +770,58 @@ By following this rule, we hope all WTT transactions involving rank can be safe,
         color: "#14B8A6",
         title: "🧾 ARTICLE 6: SECOND ADDITIONAL RULES",
         content: `
-### Open Ticket Etiquette
-When opening a ticket, please follow this etiquette:
+### Helpme Etiquette
+When using helpme (in-game ticket), please follow this etiquette:
 
-1. Do not use rude language or force staff to handle the ticket immediately in a harsh manner.
+1. Do not use rude language or force staff to handle the helpme immediately in a harsh manner.
 2. Do not share sensitive personal information.
 3. Do not insult staff or the server.
 
+**Penalties:**
+- **First Offense:** \`3-hour Ban\`.
+- **Second Offense:** \`6-hour Ban\`
+- **Third Offense:** \`1-day Ban\`
+- **Repeated Offenses (>3x):** \`Ban > 1 Day\`
+
 ---
 
-### Additional Eco PvP Rules
+### Additional Eco PvP and Survival War Rules
+#### Code of Conduct
 1. Flooding is forbidden.
-2. Using insulting words is forbidden.
-3. Discussing politics or cultural identity topics, including ethnicity, religion, race, or inter-group issues, is forbidden.
+2. Using insulting or belittling words is forbidden.
+3. Discussing politics or cultural identity topics (Ethnicity, Religion, Race, Inter-group issues) is forbidden.
 4. Spamming is forbidden.
+
+**Penalties:**
+- **First Offense:** \`Warning\`.
+- **Second Offense:** Temporary \`Mute\` for 30 minutes.
+- **Third Offense:** Temporary \`Mute\` for 1 hour.
+- **Repeated Offenses (>3x):** Temporary \`Mute\` for 3 hours.
+
+#### Other Rules
+1. Trapping is forbidden.
+2. Using mods such as x-ray and freecam is forbidden.
+
+**Penalties:**
+- **First Offense:** \`6-hour Ban\`.
+- **Second Offense:** \`1-day Ban\`.
+- **Third Offense:** \`3-day Ban\`.
+- **Repeated Offenses (>3x):** \`5-7 day Ban\`.
+
+---
+
+### ADV (Advertisement) Rules
+Promoting other servers or mentioning other server names is forbidden.
+
+**Penalties:**
+- Sanctions will be given according to the context.
+
+---
+
+### Item Lending Rules
+Lending items is allowed, but if they are not returned or are lost, it becomes a matter between the two players, not a player-to-staff issue.
+
+Staff will not recover items related to lent items.
 `,
         footer: "KandangAlwi Rules • Article 6 of 6",
     },

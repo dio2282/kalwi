@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import {
-    BookOpen,
+    MessageCircle,
     ChevronRight,
     Globe,
     Shield,
@@ -15,11 +15,11 @@ import {
 import { Header } from "@/sections/Header";
 import { Footer } from "@/sections/Footer";
 import {
-    getRulesByLanguage,
     getLanguageLabel,
     availableLanguages,
     type Language,
 } from "@/config/rulesConfig";
+import { getDiscordRulesByLanguage } from "@/config/discordRulesConfig";
 import {
     FlagIcon,
     RuleCard,
@@ -34,11 +34,11 @@ const updatedLabel: Record<Language, string> = {
     english: "Last updated: August 16, 2026",
 };
 
-export default function RulesPage() {
+export default function DiscordRulesPage() {
     const [language, setLanguage] = useState<Language>("indonesia");
     const [activeRuleId, setActiveRuleId] = useState<string | null>(null);
 
-    const rules = getRulesByLanguage(language);
+    const rules = getDiscordRulesByLanguage(language);
     const activeRule = rules.find((r) => r.id === activeRuleId) || rules[0];
 
     return (
@@ -65,22 +65,22 @@ export default function RulesPage() {
                         className="text-center"
                     >
                         <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 rounded-full border border-white/10 mb-6">
-                            <BookOpen className="w-4 h-4 text-[#30b4ff]" />
-                            <span className="text-sm text-white/70">Server Guidelines</span>
+                            <MessageCircle className="w-4 h-4 text-[#30b4ff]" />
+                            <span className="text-sm text-white/70">Discord Guidelines</span>
                         </div>
                         <div className="mb-4 text-sm font-medium text-[#30b4ff]">
                             {updatedLabel[language]}
                         </div>
 
                         <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
-                            Server{" "}
+                            Discord{" "}
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400">
                                 Rules
                             </span>
                         </h1>
 
                         <p className="text-lg text-white/60 max-w-2xl mx-auto">
-                            Peraturan server untuk menjaga kenyamanan bermain bersama.
+                            Peraturan Discord untuk menjaga kenyamanan komunitas.
                             Pastikan kamu memahami dan mengikuti aturan berikut.
                         </p>
                     </motion.div>
@@ -89,7 +89,7 @@ export default function RulesPage() {
 
             <section className="py-16 bg-black">
                 <div className="container">
-                    <RulesTypeSwitcher active="server" />
+                    <RulesTypeSwitcher active="discord" />
 
                     <motion.div
                         initial={{ opacity: 0 }}
@@ -126,7 +126,7 @@ export default function RulesPage() {
                                 <CheckCircle className="w-8 h-8 text-green-400" />
                                 <div>
                                     <h4 className="font-semibold text-green-400">Diperbolehkan</h4>
-                                    <p className="text-sm text-white/50">Mods client-side, trading in-game</p>
+                                    <p className="text-sm text-white/50">Alt account (tanpa abuse), Bahasa ID/EN</p>
                                 </div>
                             </div>
                         </motion.div>
@@ -141,7 +141,7 @@ export default function RulesPage() {
                                 <AlertTriangle className="w-8 h-8 text-yellow-400" />
                                 <div>
                                     <h4 className="font-semibold text-yellow-400">Peringatan</h4>
-                                    <p className="text-sm text-white/50">Spam, provokasi, griefing</p>
+                                    <p className="text-sm text-white/50">Toxic, spam, mention berlebihan</p>
                                 </div>
                             </div>
                         </motion.div>
@@ -156,7 +156,7 @@ export default function RulesPage() {
                                 <Shield className="w-8 h-8 text-red-400" />
                                 <div>
                                     <h4 className="font-semibold text-red-400">Dilarang Keras</h4>
-                                    <p className="text-sm text-white/50">Hack, RMT, doxing, account sharing</p>
+                                    <p className="text-sm text-white/50">Phishing, self-bot, jual akun/rank, gore</p>
                                 </div>
                             </div>
                         </motion.div>
@@ -196,7 +196,7 @@ export default function RulesPage() {
 
                         <div className="relative p-8 md:p-12 text-center">
                             <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                                Ada pertanyaan tentang rules?
+                                Ada pertanyaan tentang Discord rules?
                             </h3>
                             <p className="text-white/60 mb-6 max-w-xl mx-auto">
                                 Jika ada aturan yang kurang jelas atau kamu mengalami masalah,
